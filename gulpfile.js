@@ -15,7 +15,7 @@ const path = require('path');
 const runSequence = require('gulp-run-sequence');//顺序执行task
 
 //开发环境 true  生产环境false
-const isDev = false;
+const isDev = true;
 
 //html处理
 gulp.task('copy', () => {
