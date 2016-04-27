@@ -11,21 +11,6 @@ import { browserHistory, Router, Route, Link, Redirect } from 'react-router'
 //创建store
 let store = create();
 
-/*
-const component = (
- <Router history={browserHistory}>
- {routers(store)}
- </Router>
- );
-*/
-
-/*
-const component = (
-    <Router history={browserHistory} routes={routers} />
-);
-*/
-
-
 
 let rootElement = document.getElementById('root');
 
