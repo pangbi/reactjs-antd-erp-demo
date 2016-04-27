@@ -11,7 +11,6 @@ import { browserHistory, Router, Route, Link, Redirect } from 'react-router'
 //创建store
 let store = create();
 
-
 let rootElement = document.getElementById('root');
 
 ReactDOM.render(
